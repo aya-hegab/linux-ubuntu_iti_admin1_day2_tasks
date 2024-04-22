@@ -1,0 +1,55 @@
+---------Lab_2--------------
+
+#1
+mkdir dir1
+mkdir dir1/dir11/
+mkdir dir1/dir12/
+touch dir1/dir11/file1.txt
+mkdir docs/
+touch docs/mycv.txt
+
+#2
+rmdir dir11 
+it wont work as the rmdir only removes empty dirs
+rm -r dir11
+
+	#3
+cp /etc/passwd /home/aya
+
+	#4
+mv /home/aya/passwd /home/aya/oldpasswd
+
+	#5
+man s5 passwd
+
+	#6
+man -k passwd
+
+	#7
+a => cd~
+b => cd ../
+c => cd /home
+d => cd 
+
+	#8
+Absolute => /home/aya/Desktop/etc/passwd
+
+Relative => /etc/passwd
+
+	#9
+du -hs /home/aya
+
+	#10
+cd /etc
+ls *.config
+
+	#11
+mkdir /tmp/myconfig
+cp /etc/*.config /tmp/myconfig
+ls -f /tmp/myconfig
+
+	#12
+rm /tmp/myconfig
+
+	#13
+head -5 /etc/passwds
